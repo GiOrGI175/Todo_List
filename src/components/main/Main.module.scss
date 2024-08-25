@@ -1,0 +1,149 @@
+main {
+  background-color: #1a1a1a;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  .main_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    .main_content {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .form_container {
+        position: absolute;
+        top: -30px;
+        form {
+          display: flex;
+          align-items: center;
+
+          label {
+            input {
+              width: 644px;
+              height: 54px;
+              padding-left: 16px;
+              border-radius: 8px;
+              font-family: 'Inter', sans-serif;
+              border: 1px solid #0d0d0d;
+              background-color: #262626;
+            }
+          }
+
+          button {
+            cursor: pointer;
+            width: 84px;
+            height: 52px;
+            margin-left: 8px;
+            border-radius: 8px;
+            background-color: #1e6f9f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div {
+              display: flex;
+
+              span {
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 19.6px;
+                color: #f2f2f2;
+              }
+
+              img {
+                width: 16px;
+                height: 16px;
+                margin: 1px 0px 0px 8px;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+      }
+      .Tasks_container {
+        width: 736px;
+        min-height: 287px;
+        margin-top: 91px;
+
+        .tasks_header {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .Total_tasks_Box {
+            p {
+              display: flex;
+              font-family: 'Inter', sans-serif;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: left;
+              color: #4ea8de;
+              div {
+                width: 25px;
+                height: 19px;
+                margin-left: 8px;
+                border-radius: 999px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #333333;
+              }
+            }
+          }
+
+          .complate_tasks_Box {
+            p {
+              display: flex;
+              font-family: 'Inter', sans-serif;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16.94px;
+              text-align: left;
+              color: #8284fa;
+              div {
+                width: 25px;
+                height: 19px;
+                margin-left: 8px;
+                border-radius: 999px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #333333;
+              }
+            }
+          }
+        }
+        .tasks_Container {
+          width: 736px;
+          min-height: 244px;
+          margin-top: 24px;
+          border-radius: 8px;
+          border-top: 1px solid #333333;
+
+          .tasks_Not_Found {
+            padding-top: 64px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+
+          p {
+            width: 350px;
+            margin-top: 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22.4px;
+            text-align: center;
+            color: #808080;
+          }
+        }
+      }
+    }
+  }
+}
