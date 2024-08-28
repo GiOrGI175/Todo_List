@@ -152,6 +152,10 @@ const Main = () => {
                     organize your to-do items.
                   </p>
                 </div>
+              ) : Loading ? (
+                <p>Loading...</p>
+              ) : error ? (
+                <p>{error}</p>
               ) : (
                 <ul>
                   {Tasks.map((task) => (
